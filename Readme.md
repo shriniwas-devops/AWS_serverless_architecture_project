@@ -1,9 +1,8 @@
 #API Gateway
 
-dummy payload:
+Dummy payload:
 
 ````
-```
 {
     "Customer": "Aseef Ahmed",
     "OrderId": 1,
@@ -11,5 +10,4 @@ dummy payload:
     "OrderAmount": "200USD",
     "OrderStatus": "PAID"
 }
-```
 ````
