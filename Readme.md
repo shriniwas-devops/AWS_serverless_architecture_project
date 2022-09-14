@@ -1,4 +1,4 @@
-#API Gateway
+# API Gateway
 
 Dummy payload:
 
@@ -11,3 +11,11 @@ Dummy payload:
     "OrderStatus": "PAID"
 }
 ````
+
+# Build Microservice
+1. go to the directory 'microservices/sqs_message_reader'
+2. Build the docker image with
+````
+docker build -t sqs_message_reader .
+````
+3. Create an ECR repo
