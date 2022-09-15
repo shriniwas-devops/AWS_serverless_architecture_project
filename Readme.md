@@ -35,4 +35,10 @@ docker tag IMAGE_NAME ACCOUNT_ID.dkr.ecr.AWS_REGION.amazonaws.com/ECR_REPO
 6. Push the image into your ECR repo with
 ````
 docker push ACCOUNT_ID.dkr.ecr.AWS_REGION.amazonaws.com/sqs_message_reader
+
+# Build ECS Task Role
+ IAM role that tasks can use to make API requests to authorized AWS services
+ 
+# ECS Task Defination
+
 ````
