@@ -27,15 +27,16 @@ session = boto3.session.Session()
 aws_region = session.region_name
 queueUrl = "https://sqs.{0}.amazonaws.com/{1}/{2}".format(aws_region, account_number, SQS_NAME)
 s3_bucket_arn = "arn:aws:s3:::{0}".format(S3_BUCKET)
-
+print(queueUrl)
 while True:
     response = sqs.receive_message(
         QueueUrl=queueUrl,
         MaxNumberOfMessages=1
     )
 
+    print(response)
     message_in_response =  "Messages" in response
-    #print(message_in_response)
+
     if message_in_response == False:
         time.sleep(10)
     else:
