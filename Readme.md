@@ -54,3 +54,10 @@ use the image that you uploaded into ECR
 
 # Create ECS Service
 - use platform version 1.3.0
+
+# Load Test
+Run the following script to load test. Make sure replace the variable API_URI in the script
+
+````
+./scripts/load-test.sh
+````
