@@ -1,3 +1,14 @@
+# Create an S3 bucket
+keep the bucket name for future reference
+
+# Create an Dynamodb table
+Use id as a PRIMARY KEY and type would be Number
+
+keep the table name for future reference
+
+# Create SQS
+Keep the SQS Name for future referencesss
+
 # API Gateway
 
 Dummy payload:
@@ -5,7 +16,6 @@ Dummy payload:
 ````
 {
     "Customer": "Aseef Ahmed",
-    "Email": "aseefahmed@gmail.com",
     "OrderId": 1,
     "OrderDate": "2021-09-25T23:28:15",
     "OrderAmount": "200USD",
@@ -37,9 +47,10 @@ docker tag IMAGE_NAME ACCOUNT_ID.dkr.ecr.AWS_REGION.amazonaws.com/ECR_REPO
 ````
 docker push ACCOUNT_ID.dkr.ecr.AWS_REGION.amazonaws.com/sqs_message_reader
 
-# Build ECS Task Role
- IAM role that tasks can use to make API requests to authorized AWS services
- 
-# ECS Task Defination
-
 ````
+
+# Create ECS Task Defination
+use the image that you uploaded into ECR
+
+# Create ECS Service
+- use platform version 1.3.0
