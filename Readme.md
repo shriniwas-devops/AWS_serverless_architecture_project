@@ -1,4 +1,20 @@
+PROJECT ARCHITECTURE:
+
+
+<img width="1075" alt="fghfghfghfghj" src="https://user-images.githubusercontent.com/122585172/230899409-38fcfe52-b8b5-414f-be01-654b4ffc54f0.png">
+
+
+
+
+
+
+
+
+
+
 # Create an S3 bucket
+
+
 keep the bucket name for future reference
 
 # Create an Dynamodb table
