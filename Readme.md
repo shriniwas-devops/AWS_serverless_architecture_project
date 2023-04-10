@@ -4,6 +4,17 @@ PROJECT ARCHITECTURE:
 <img width="1075" alt="fghfghfghfghj" src="https://user-images.githubusercontent.com/122585172/230899409-38fcfe52-b8b5-414f-be01-654b4ffc54f0.png">
 
 
+PREREQUISITES:
+
+- Microservices
+- Serverless Architecture
+- AWS Lambda Function
+- Amazon Simle Queue Service (SQS)
+- Amazon Simple Storage Service (S3)
+- Amazon Elastic Container Service (Amazon ECS)
+- Amazon DynamoDB Database
+- Amazon API Gateway
+
 
 
 
